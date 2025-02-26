@@ -1,0 +1,15 @@
+### get all users
+
+GET http://localhost:8000/users/
+
+### post a new user
+
+POST http://localhost:8000/users/
+Content-Type: application/json
+
+{
+   "id": 1,
+   "full_name": "John Doe",  
+   "email": "x@x.com",
+   "password": "password"
+} 
